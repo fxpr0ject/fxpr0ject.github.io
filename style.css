@@ -1,17 +1,18 @@
 body {
     background:#FFF;
     color:#000;
-    font-family: Arial, sans-serif;
+    
     font-size: 14px;
 }
 #header {
     background: #ff0000;
-    width: 90%;
-    height: 55px;
+    font-family: 'Press Start 2P', cursive;
+    width: 100%;
+    height: 120px;
 }
 #icon {
-    width: 10%;
-    height: 55px;
+    width: 0%;
+    height: 70px;
     float: right;
 }
 #container {
@@ -22,24 +23,27 @@ body {
     height: 0px;
 }
 #sidebar {
+    font-family: 'Zen Dots', cursive;
     background: #7a0808;
     text-align: center;
     float: left;
     width: 20%;               
-    height: 600px;
+    height: 800px;
 }
 #content {
     background: #DCDCDC;
+    font-family: 'Source Code Pro', monospace;
     float: right;
     text-align: center;
     width: 80%;
-    height: 600px;
+    height: 800px;
 }
 #clear {
     clear: both;
 }
 #footer {
     background: #bfd8e0;
+    font-family: 'Zen Dots', cursive;
     width: 100%;
     height: 20px;
 }

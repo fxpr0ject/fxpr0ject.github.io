@@ -1,26 +1,52 @@
 <html>
     <head>
         <title>fxpr0ject: Main Page</title>
+        <meta charset="utf-8">
+        <style>
+            .layer {
+             background: #fc3; /* Цвет фона */
+             border: 1px solid black;  /* Параметры рамки */
+             padding: 10px; /* Поля вокруг текста */
+            }
+           </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&family=Zen+Dots&display=swap" rel="stylesheet">
     </head>
     <link href="style.css" rel="stylesheet" type="text/css">
     <body>
         <div id="container">
-            <div id="header">
+            <div id="header" class="layer">  
                 <h2>Добро пожаловать на fxpr0ject</h2>
+                <img src="amdfx.jpg" align="right" width="90" height="75">
             </div>
             <div id="icon">
-                <img src="amdfx.jpg" width="55" height="55">
             </div>
             <div id="sidebar">
                 <h2>Меню</h2>
-                <button><a href="Catalog.html">Каталог</a></button>
-                <button><a href="Buy.html">Купить AMD FX</a></button>
-                <button><a href="Projects.html">Другие проекты</a></button>
+                <button style="height:60;width:300"><a href="index.html">Главная страница</a></button>
+                <button style="height:60;width:300"><a href="Catalog.html">Каталог</a></button><br>
+                <button style="height:60;width:300"><a href="Contact.html">Наши контакты</a></button><br>
+                <button style="height:60;width:300"><a href="Projects.html">Другие проекты</a></button><br>
             </div>
             <div id="content">
                 <h2>Об AMD FX</h2>
                 <h4><i>AMD FX </i> - это процессор, вышедший в 2011 году. Благодоря низкой производительности на ядро процессор не мог конкурировать с процессорами от Intel, такими как Sandy Bridge.</h4>
                 <h4>Однако, потом когда игры научились использовать 8 потоков, FX показывает хороший результат, особо если его разогнать</h4>
+                <h4>Первым семейством процессоров микроархитекуры Bulldozer стало настольное семейство Zambezi во 2 квартале 2011 года под Socket AM3+, производством которого занимается компания-подрядчик GlobalFoundries. Zambezi выполнены по 32 нм техпроцессу; первыми появились 8-ядерные с TDP от 95 до 125 Вт в зависимости от тактовой частоты и 8 Мб кэш-памяти L2, затем 6- и 4-ядерные с TDP 95 Вт и с 6 и 4 Мб L2 кэша соответственно.
+
+                    В последней четверти 2011 года появилось семейство Orochi. 8-ядерные процессоры семейства Orochi получат 16 Мб общей кэш-памяти. Оба семейства будут иметь двухканальный контроллер памяти DDR3.
+                    
+                    В 3 квартале 2011 года был намечен выпуск процессоров Interlagos, которые имеют 16 вычислительных ядер, четырёхканальный контроллер памяти DDR3. Также в 2011 году выпущено менее мощное семейство Valencia с поддержкой двухканальной памяти DDR3.
+                    
+                    В этом же году AMD хотела выпустить серверные чипы Terramar и Sepang, которые имели бы до 20 ядер, техпроцесс 32 нм, интегрированный 4-канальный контроллер памяти DDR3 и контроллер PCI Express 3.0. Но планы изменились, и теперь AMD готовит другие серверные CPU — Abu Dhabi, в состав которых входит до 16 ядер Piledriver (наследники Bulldozer), а для двухсокетных серверов припасены чипы под названием Seoul, включающие в себя до 8 указанных ядер.
+                    
+                    Летом 2013 года AMD объявила о процессоре AMD FX-9590 с частотой до 5 ГГц (Turbo).</h4>
+                    <h4>Архитектура AMD FX</h4>
+                    <img src="arc.png" width="600" height="400">
             </div>
             <div id="clear">
             </div>
